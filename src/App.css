@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;;
+    background-color: #efefef;
+    font-size: 105x;
+}
+
+
+/*form de agregar*/
+.create{
+    background-color: #eee;
+    
+    border: 4px solid green;    
+    display: inline-block;
+    padding: 5px;
+}
+
+.create input{
+    background-color: yellowgreen;
+    
+    margin: 5px 10px;
+}
+
+.create input::placeholder{
+    color: white;
+}
+
+input[type="submit"], button{
+    cursor: pointer;
+    
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+/*listado*/
+.item{
+    list-style: none;
+    background-color: #eee;
+    
+    border: 4px solid orange;
+    display: block;
+    padding: 5px;
+}
+
+/*botones*/
+input.btn-create{
+    color: white;
+    background-color: green;
+    border: 3px solid green;
+    transition: all 300ms;
+}
+.btn-create:hover{
+    color: black;
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
+}
+.btn-edit{
+    color: white;
+    background-color: blue;
+    border: 3px solid blue;
+    transition: all 300ms;
+}
+.btn-edit:hover{
+    color: black;
+    background-color: lightskyblue;
+    border: 3px solid lightskyblue;
+}
+.btn-delt{
+    color: white;
+    background-color: red;
+    border: 3px solid red;
+    transition: all 300ms;
+}
+.btn-delt:hover{
+    color: black;
+    background-color: lightcoral;
+    border: 3px solid lightcoral;
+}
+
+
+
+
+
+
+/*form de actualizar*/
+.update{
+    background-color: #eee;
+    
+    border: 4px solid blue;    
+    padding: 5px;
+}
+
+.update input{
+    background-color: lightskyblue;
+    
+    margin: 5px 10px;
+}
